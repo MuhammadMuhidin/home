@@ -2,4 +2,4 @@ title: Muhammad Muhidin
 logo: /assets/profile.jpg
 description: Data Engineer | ETL Developer
 #show_downloads: true
-remote_theme: jekyller/jekyll-theme-superb
+theme: jekyll-theme-minimal
