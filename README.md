@@ -1,4 +1,4 @@
-# Data Engineer • ETL Developer
+# Data Engineer | ETL Developer
 
 #### Technical Skills: Problem Solving and Analysis, Python, SQL, Airflow
 
