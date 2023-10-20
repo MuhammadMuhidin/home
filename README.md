@@ -49,4 +49,4 @@ This project aims to provide practical understanding of the RSA algorithm while 
 ## Contact
 Email: [muhammad.muhidin@outlook.com](mailto:muhammad.muhidin@outlook.com)  
 for more information about my projects, please visit my [github](https://github.com/MuhammadMuhidin)
-or download my [resume](/assets/resume.pdf)
+or download my latest resume [here](/assets/resume.pdf)
