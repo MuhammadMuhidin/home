@@ -27,12 +27,12 @@
 
 ## My Projects
 ### (Project 1) DataCraft ELT Kimball Modeling with Visual Metabase
-link [Project 1](/assets/project1.svg)
+link [Project 1](https://github.com/MuhammadMuhidin/DataCraft-ELT-Kimball-Modeling-with-Visual-Metabase)
 
 Development data pipeline for the project with ELT concept and use metabase for visualization.
 Raw data from faker will be extracted by polars into csv format, then PostgresOperator with .sql write to postgres. after that airflow send dbt run command to transformation data. airflow will use the metabase api to send reports via email. a metabase get data from postgres to visualization.
 
-![project1](https://github.com/MuhammadMuhidin/DataCraft-ELT-Kimball-Modeling-with-Visual-Metabase/blob/main/flow.svg)
+![project1](assets/project1.svg)
 
 ### (Project 2) Implement RSA with HTML and Javascript
 link [Project 2](https://github.com/MuhammadMuhidin/rsa)
