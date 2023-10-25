@@ -30,9 +30,9 @@
 link [Project 1](https://github.com/MuhammadMuhidin/DataCraft-ELT-Kimball-Modeling-with-Visual-Metabase)
 
 Development data pipeline for the project with ELT concept and use metabase for visualization.
-Raw data from Faker mechanism is extracted by Polars in Airflow and then loaded into Postgres. then Airflow runs the SQL file containing the dim and fact creation. All status instances are sent to email with attachments, telegram and slack. After the dim and fact data are created, the metabase reads Postgres for visualization.
+Raw data from faker will be extracted by polars into csv format, then PostgresOperator with .sql write to postgres. after that airflow send dbt run command to transformation data. airflow will use the metabase api to send reports via email. a metabase get data from postgres to visualization.
 
-![project1](/assets/project1.svg)
+![project1](https://github.com/MuhammadMuhidin/DataCraft-ELT-Kimball-Modeling-with-Visual-Metabase/blob/main/flow.svg)
 
 ### (Project 2) Implement RSA with HTML and Javascript
 link [Project 2](https://github.com/MuhammadMuhidin/rsa)
